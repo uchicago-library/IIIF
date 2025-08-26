@@ -1,0 +1,117 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2XXXXXXXXXX.json",
+  "type": "Manifest",
+
+  "label": { "en": ["MAP TITLE"] },
+  "behavior": ["individuals"],
+  "rights": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "requiredStatement": {
+    "label": { "en": ["Attribution"] },
+    "value": { "en": ["University of Chicago Library"]}
+  },
+  "metadata": [
+    { "label": { "en": ["title"] },       "value": { "en": ["MAP TITLE"] } },
+    { "label": { "en": ["description"] }, "value": { "en": ["Short description of the object."] } },
+    { "label": { "en": ["date"] },        "value": { "en": ["YYYY"] } },
+    { "label": { "en": ["identifier"] },  "value": { "en": ["LOCAL IDENTIFIER"] } },
+    { "label": { "en": ["language"] },    "value": { "en": ["eng"] } },
+    { "label": { "en": ["ARK identifier"] }, "value": { "en": ["ark:61001/b2XXXXXXXXXX"] } }
+  ],
+      "homepage": [
+    {
+      "id": "http://node.uchicago.edu/collection/SHORT_NAME",
+      "type": "Text",
+      "label": {"en": ["FULL_NAME"]},
+      "format": "text/html"
+    }
+  ],
+  "seeAlso": [
+  {
+    "id": "https://allmaps.org/maps/YOUR-ALMAPS-MAP-ID",
+    "type": "Dataset",
+    "format": "application/json",
+    "label": { "en": ["Allmaps Georeferencing Data"] },
+    "profile": "https://allmaps.org/profile/georeference"
+  }
+  ],
+ "rendering": [
+    {
+        "id": "https://iiif-server.lib.uchicago.edu/object/ark:61001/b2XXXXXXXXXX/file.pdf",
+        "type": "Text",
+        "label":{"en":["Download as PDF"]},
+        "format": "application/pdf"
+    }
+ ],
+  "thumbnail": [
+    {
+      "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2XXXXXXXXXX/IMAGE_NO/full/500,/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2XXXXXXXXXX/IMAGE_NO",
+          "type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json2"
+        }
+      ]
+    }
+  ],
+
+  "items": [
+  {
+    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2XXXXXXXXXX/IMAGE_NO/canvas/sheet-1",
+    "type": "Canvas",
+    "label": { "en": ["Sheet 1"] },
+      "height": 3000,
+      "width": 2000,
+      "items": [
+        {
+          "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2XXXXXXXXXX/IMAGE_NO/canvas/sheet-1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2XXXXXXXXXX/IMAGE_NO/annotation/sheet-1-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2XXXXXXXXXX/IMAGE_NO/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 2000,
+                "service": [
+                  {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2XXXXXXXXXX/IMAGE_NO",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://iiif-server.lib.uchicago.edu/ark:61001/b2XXXXXXXXXX/IMAGE_NO/canvas/sheet-1/page/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2XXXXXXXXXX/range/toc",
+      "type": "Range",
+      "label": {"en": ["Table of Contents"]},
+      "behavior": ["top"],
+      "items": [
+      { "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2XXXXXXXXXX/range/sheet-1", "type": "Range" }
+    ]
+    },
+ {
+    "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2XXXXXXXXXX/range/sheet-1",
+    "type": "Range",
+    "label": { "en": ["Sheet 1"] },
+    "items": [
+      { "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2XXXXXXXXXX/canvas/sheet-1", "type": "Canvas" }
+    ]
+  }
+]
+}
