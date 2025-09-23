@@ -1,0 +1,117 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://iiif-manifest.lib.uchicago.edu/b2b42t91512d",
+  "type": "Manifest",
+
+  "label": { "en": ["Chicago After the Fire"] },
+  "behavior": ["individuals"],
+  "rights": "http://creativecommons.org/licenses/by-nc/4.0/",
+  "requiredStatement": {
+    "label": { "en": ["Attribution"] },
+    "value": { "en": ["Chicago History Museum"]}
+  },
+"metadata": [
+  { "label": { "en": ["Title"] },               "value": { "en": ["[245 $a : $b / $c]"] } },
+  { "label": { "en": ["Alternative Title"] },   "value": { "en": ["[246]"] } },
+  { "label": { "en": ["Description"] },		"value": { "en": ["[short description of collection it is a part of]"] } },
+  { "label": { "en": ["Date"] },			"value": { "en": ["[YYYY]"] } },
+  { "label": { "en": ["Language"] },            "value": { "en": ["[008/35–37 → human-readable language]"] } },
+
+  { "label": { "en": ["Creator"] },             "value": { "en": ["[100]"] } },
+  { "label": { "en": ["Creator"] },             "value": { "en": ["[110]"] } },
+  { "label": { "en": ["Creator"] },             "value": { "en": ["[111]"] } },
+  { "label": { "en": ["Place of Publication"] }, "value": { "en": ["[264 _1 $a]"] } },
+  { "label": { "en": ["Publisher"] },           "value": { "en": ["[264 _1 $b]"] } },
+  { "label": { "en": ["Date Issued"] },         "value": { "en": ["[264 _1 $c]"] } },
+  { "label": { "en": ["Copyright Date"] },      "value": { "en": ["[264 _4 $c]"] } },
+
+
+  { "label": { "en": ["Contributor"] },         "value": { "en": ["[700]"] } },
+  { "label": { "en": ["Contributor"] },         "value": { "en": ["[710]"] } },
+
+  { "label": { "en": ["Scale"] },               "value": { "en": ["[255 $a]"] } },
+
+  { "label": { "en": ["Subject"] },             "value": { "en": ["[600 $a $c $d $q  (use FAST if $2=fast)]"] } },
+  { "label": { "en": ["Subject"] },             "value": { "en": ["[610 $a  ($2 source)]"] } },
+  { "label": { "en": ["Subject"] },             "value": { "en": ["[650 $a  ($2 source)]"] } },
+  { "label": { "en": ["Subject (Geographic)"] }, "value": { "en": ["[651 $a  (use FAST if $2=fast)]"] } },
+
+  { "label": { "en": ["Genre/Form"] },          "value": { "en": ["[655 $a  ($2=fast or LCGFT) — repeat, do not concatenate]"] } },
+  { "label": { "en": ["Persistent Link"] },     "value": { "en": ["[https://ark.lib.uchicago.edu/ark:61001/b2b42t91512d]"] } },
+
+  { "label": { "en": ["General Note"] },        "value": { "en": ["[500 $a — repeat, do not concatenate]"] } },
+
+  { "label": { "en": ["Access Rights"] },       "value": { "en": ["[506]"] } },
+  { "label": { "en": ["Rights"] },              "value": { "en": ["[540]"] } },
+  { "label": { "en": ["Copyright Status"] },    "value": { "en": ["[542]"] } }
+],
+      "homepage": [
+    {
+      "id": "https://node-staging.uchicago.edu/collection/mapping-chicagoland",
+      "type": "Text",
+      "label": {"en": ["Mapping Chicagoland"]},
+      "format": "text/html"
+    }
+  ],
+  "seeAlso": [
+  {
+    "id": "https://annotations.allmaps.org/maps/d2bf6d3416fb8835/",
+    "type": "Dataset",
+    "format": "application/json",
+    "label": { "en": ["Allmaps Georeferencing Data"] },
+    "profile": "https://viewer.allmaps.org/?url=https://annotations.allmaps.org/maps/d2bf6d3416fb8835/"
+  }
+ ],
+  "thumbnail": [
+    {
+      "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2b42t91512d/00000001/full/500,/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2b42t91512d/00000001",
+          "type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json2"
+        }
+      ]
+    }
+  ],
+
+  "items": [
+  {
+    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2b42t91512d/00000001/canvas/sheet",
+    "type": "Canvas",
+    "label": { "en": ["Sheet"] },
+      "height": 3224,
+      "width": 2363,
+      "items": [
+        {
+          "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2b42t91512d/00000001/canvas/sheet/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2b42t91512d/00000001/annotation/sheet-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2b42t91512d/00000001/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3224,
+                "width": 2363,
+                "service": [
+                  {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2b42t91512d/00000001",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://iiif-server.lib.uchicago.edu/ark:61001/b2b42t91512d/00000001/canvas/sheet/page/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
