@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "http://iiif-manifest.lib.uchicago.edu/b2b42t91512d",
+  "id": "https://iiif-manifest.lib.uchicago.edu/b2b42t91512d",
   "type": "Manifest",
 
   "label": { "en": ["Chicago After the Fire"] },
