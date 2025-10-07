@@ -71,7 +71,7 @@
         {
           "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2b42t91512d/00000001",
           "type": "ImageService2",
-          "profile": "http://iiif.io/api/image/2/level2.json2"
+          "profile": "http://iiif.io/api/image/2/level2.json"
         }
       ]
     }
