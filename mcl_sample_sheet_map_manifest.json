@@ -38,7 +38,7 @@
   ],
   "homepage": [
     {
-      "id": "https://node-staging.uchicago.edu/collection/mapping-chicagoland",
+      "id": "https://node.uchicago.edu/collection/mapping-chicagoland",
       "type": "Text",
       "label": { "en": ["Mapping Chicagoland"] },
       "format": "text/html"
