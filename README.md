@@ -5,7 +5,7 @@ Welcome to the IIIF wiki!
 * [Modeling Library Digital Collections in IIIF Viewers](https://github.com/uchicago-library/IIIF/wiki/Modeling-Library-Digital-Collections-in-IIIF-Viewers)
 
 # Project Specifications
-* [Mapping Chicagoland](https://github.com/uchicago-library/IIIF/wiki/Mapping-Chicagoland-Specs)
+* [Mapping Chicagoland](https://github.com/uchicago-library/IIIF/wiki/Mapping-Chicagoland)
 * [Chopin Early Editions](https://github.com/uchicago-library/IIIF/wiki/Chopin-Early-Editions)
 * [Rose and Chess](https://github.com/uchicago-library/IIIF/wiki/Rose-and-Chess)
 
