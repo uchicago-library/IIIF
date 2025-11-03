@@ -6,7 +6,7 @@
 
   "label": { "en": ["Yerkes, Chas. S. Insurance map of the World's Columbian Exposition, Jackson Park, Chicago (1893)"] },
   "behavior": ["individuals"],
-  "rights": "http://creativecommons.org/licenses/by-nc/4.0/",
+  "rights": "https://creativecommons.org/licenses/by-nc/4.0/",
   "requiredStatement": {
     "label": { "en": ["Attribution"] },
     "value": { "en": ["Newberry Library"]}
