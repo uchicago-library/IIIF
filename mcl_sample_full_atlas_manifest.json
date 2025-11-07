@@ -83,7 +83,7 @@
       "width": 7481,
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/canvas/cover",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/canvas/cover/page",
           "type": "AnnotationPage",
           "items": [
             {
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index-Map",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index",
       "type": "Canvas",
       "label": { "en": ["Index"] },
       "height": 9202,
@@ -128,11 +128,11 @@
       ],
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index-Map",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/annotation/index-map-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/annotation/index-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -149,14 +149,14 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index-Map"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/p3",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3",
       "type": "Canvas",
       "label": { "en": ["3"] },
       "height": 9194,
@@ -173,11 +173,11 @@
       ],
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/p3/page/3",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/annotation/p3-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -194,14 +194,14 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/p3"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/p4",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/4",
       "type": "Canvas",
       "label": { "en": ["4"] },
       "height": 9194,
@@ -218,11 +218,11 @@
       ],
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/p4/page/4",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/4/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/annotation/p4-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/annotation/4-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -239,14 +239,14 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/p4"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/4"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/p5",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/5",
       "type": "Canvas",
       "label": { "en": ["5"] },
       "height": 9238,
@@ -263,11 +263,11 @@
       ],
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/p5/page/5",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/5/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/annotation/p5-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/annotation/5-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -284,14 +284,14 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/p5"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/5"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/p6",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/6",
       "type": "Canvas",
       "label": { "en": ["6"] },
       "height": 9209,
@@ -308,11 +308,11 @@
       ],
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/p6/page/6",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/6/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/annotation/p6-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/annotation/6-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -329,14 +329,14 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/p6/page/6"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/6"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/p7",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/7",
       "type": "Canvas",
       "label": { "en": ["7"] },
       "height": 9194,
@@ -353,11 +353,11 @@
       ],
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/p7/page/7",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/7/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/annotation/p7-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/annotation/7-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -374,14 +374,14 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/p7"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/7"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/p8",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/8",
       "type": "Canvas",
       "label": { "en": ["8"] },
       "height": 9156,
@@ -398,11 +398,11 @@
       ],
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/p8/page/8",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/8/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/annotation/p8-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/annotation/8-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -419,14 +419,14 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/p8"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/8"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/p9",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/9",
       "type": "Canvas",
       "label": { "en": ["9"] },
       "height": 9155,
@@ -443,11 +443,11 @@
       ],
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/p9/page/9",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/9/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/annotation/p9-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/annotation/9-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -464,14 +464,14 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/p9"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/9"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/p10",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/10",
       "type": "Canvas",
       "label": { "en": ["10"] },
       "height": 9194,
@@ -488,11 +488,11 @@
       ],
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/p10/page/10",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/10/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/annotation/p10-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/annotation/10-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -509,14 +509,14 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/p10"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/10"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/p11",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/11",
       "type": "Canvas",
       "label": { "en": ["11"] },
       "height": 9224,
@@ -533,11 +533,11 @@
       ],
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/p11/page/11",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/11/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/annotation/p11-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/annotation/11-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -554,14 +554,14 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/p11"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/11"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/p12",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/12",
       "type": "Canvas",
       "label": { "en": ["12"] },
       "height": 9180,
@@ -592,11 +592,11 @@
       ],
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/p12/page/12",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/12/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/annotation/p12-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/annotation/12-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -613,26 +613,26 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/p12"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/12"
             }
           ]
         }
       ]
     },
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/p13",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/cover",
       "type": "Canvas",
-      "label": { "en": ["Back Cover"] },
+      "label": { "en": ["Cover"] },
       "height": 9184,
       "width": 7378,
 
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/p13/page/13",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/cover/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/annotation/p13-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/annotation/cover-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -649,7 +649,7 @@
                   }
                 ]
               },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/p13"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/cover"
             }
           ]
         }
@@ -671,99 +671,36 @@
           ]
         },
         {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/index-map",
+          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/index",
           "type": "Range",
-          "label": { "en": ["Index Map"] },
+          "label": { "en": ["Index"] },
           "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index-Map", "type": "Canvas" }
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/index", "type": "Canvas" }
           ]
         },
         {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/p3",
+          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/body",
           "type": "Range",
-          "label": { "en": ["3"] },
+          "label": { "en": ["Body"] },
           "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/p3", "type": "Canvas" }
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3", "type": "Canvas" },
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/4", "type": "Canvas" },
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/5", "type": "Canvas" },
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/6", "type": "Canvas" },
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/7", "type": "Canvas" },
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/8", "type": "Canvas" },
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/9", "type": "Canvas" },
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/10", "type": "Canvas" },
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/11", "type": "Canvas" },
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/12", "type": "Canvas" }
           ]
         },
         {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/p4",
+          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/cover",
           "type": "Range",
-          "label": { "en": ["4"] },
+          "label": { "en": ["Cover"] },
           "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/p4", "type": "Canvas" }
-          ]
-        },
-        {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/p5",
-          "type": "Range",
-          "label": { "en": ["5"] },
-          "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/p5", "type": "Canvas" }
-          ]
-        },
-        {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/p6",
-          "type": "Range",
-          "label": { "en": ["6"] },
-          "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/p6", "type": "Canvas" }
-          ]
-        },
-        {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/p7",
-          "type": "Range",
-          "label": { "en": ["7"] },
-          "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/p7", "type": "Canvas" }
-          ]
-        },
-        {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/p8",
-          "type": "Range",
-          "label": { "en": ["8"] },
-          "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/p8", "type": "Canvas" }
-          ]
-        },
-        {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/p9",
-          "type": "Range",
-          "label": { "en": ["9"] },
-          "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/p9", "type": "Canvas" }
-          ]
-        },
-        {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/p10",
-          "type": "Range",
-          "label": { "en": ["10"] },
-          "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/p10", "type": "Canvas" }
-          ]
-        },
-        {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/p11",
-          "type": "Range",
-          "label": { "en": ["11"] },
-          "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/p11", "type": "Canvas" }
-          ]
-        },
-        {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/p12",
-          "type": "Range",
-          "label": { "en": ["12"] },
-          "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/p12", "type": "Canvas" }
-          ]
-        },
-        {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/back-cover",
-          "type": "Range",
-          "label": { "en": ["Back Cover"] },
-          "items": [
-            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/p13", "type": "Canvas" }
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/cover", "type": "Canvas" }
           ]
         }
       ]
