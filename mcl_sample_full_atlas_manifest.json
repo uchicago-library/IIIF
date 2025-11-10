@@ -67,8 +67,8 @@
       "format": "image/jpeg",
       "service": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001",
-          "type": "ImageService2",
+          "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001",
+          "@type": "ImageService2",
           "profile": "http://iiif.io/api/image/2/level2.json"
         }
           ]
@@ -98,8 +98,8 @@
                 "width": 7481,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -143,8 +143,8 @@
                 "width": 7495,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -188,8 +188,8 @@
                 "width": 7395,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -233,8 +233,8 @@
                 "width": 7393,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -278,8 +278,8 @@
                 "width": 7483,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -323,8 +323,8 @@
                 "width": 7416,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -368,8 +368,8 @@
                 "width": 7395,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -413,8 +413,8 @@
                 "width": 7481,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -458,8 +458,8 @@
                 "width": 7358,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -503,8 +503,8 @@
                 "width": 7417,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -548,8 +548,8 @@
                 "width": 7468,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -607,8 +607,8 @@
                 "width": 7362,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
@@ -643,8 +643,8 @@
                 "width": 7378,
                 "service": [
                   {
-                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013",
-                    "type": "ImageService2",
+                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013",
+                    "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
