@@ -45,9 +45,9 @@
   { "label": { "en": ["Rights"] },              "value": { "en": ["[540]"] } },
   { "label": { "en": ["Copyright Status"] },    "value": { "en": ["[542]"] } }
 ],
-      "homepage": [
+    "homepage": [
     {
-      "id": "https://node-staging.uchicago.edu/collection/mapping-chicagoland",
+      "id": "https://node.uchicago.edu/collection/mapping-chicagoland",
       "type": "Text",
       "label": {"en": ["Mapping Chicagoland"]},
       "format": "text/html"
@@ -64,12 +64,12 @@
  ],
   "thumbnail": [
     {
-      "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/full/500,/0/default.jpg",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/file.vaf.tif/full/500,/0/default.jpg",
       "type": "Image",
       "format": "image/jpeg",
       "service": [
         {
-          "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001",
           "type": "ImageService2",
           "profile": "http://iiif.io/api/image/2/level2.json"
         }
@@ -79,70 +79,70 @@
 
   "items": [
   {
-    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/canvas/sheet",
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/canvas/00000001",
     "type": "Canvas",
     "label": { "en": ["Sheet"] },
       "height": 2505,
       "width": 2620,
       "items": [
         {
-          "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/canvas/sheet/page/1",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/canvas/img_00000001",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/annotation/sheet-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/annotation/img_00000001",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/full/full/0/default.jpg",
+                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/file.vaf.tif/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2505,
                 "width": 2620,
                 "service": [
                   {
-                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001",
+                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001",
                     "type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
               },
-              "target": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/canvas/sheet"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/canvas/00000001"
             }
           ]
         }
       ]
     },
     {
-    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/canvas/verso",
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/canvas/00000002",
     "type": "Canvas",
     "label": { "en": ["Verso"] },
       "height": 2499,
       "width": 2610,
       "items": [
         {
-          "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/canvas/verso/page/1",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/canvas/img_00000002",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/annotation/verso-image",
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/annotation/img_00000002",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/full/full/0/default.jpg",
+                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/file.vaf.tif/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2499,
                 "width": 2610,
                 "service": [
                   {
-                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002",
+                    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002",
                     "type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level2.json"
                   }
                 ]
               },
-              "target": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/canvas/verso"
+              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/canvas/00000002"
             }
           ]
         }
@@ -151,28 +151,27 @@
   ],
   "structures": [
     {
-      "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/range/toc",
+      "id": "https://iiif-manifest.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/range/toc",
       "type": "Range",
       "label": {"en": ["Table of Contents"]},
       "items": [
         { 
-            "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/range/sheet",
+            "id": "https://iiif-manifest.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/range/00000001",
             "type": "Range",
             "label": { "en": ["Sheet"] },
             "items": [
-                { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/canvas/sheet", "type": "Canvas" }
+                { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000001/canvas/00000001", "type": "Canvas" }
             ]
         },
         { 
-            "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/range/verso",
+            "id": "https://iiif-manifest.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/range/00000002",
             "type": "Range",
             "label": { "en": ["Verso"] },
             "items": [
-                { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/canvas/verso", "type": "Canvas" }
+                { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2ng8kd4p450/00000002/canvas/00000002", "type": "Canvas" }
             ]
         }
      ]
     }
   ]
-
 }   
