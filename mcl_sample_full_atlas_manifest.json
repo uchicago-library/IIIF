@@ -5,7 +5,7 @@
 
   "label": { "en": ["Yerkes, Chas. S. Insurance map of the World's Columbian Exposition, Jackson Park, Chicago (1893)"] },
   "behavior": ["individuals"],
-  "rights": "https://creativecommons.org/licenses/by-nc-sa/4.0/" 
+  "rights": "https://creativecommons.org/licenses/by-nc/4.0/",
   "requiredStatement": {
     "label": { "en": ["Attribution"] },
     "value": { "en": ["Newberry Library"]}
@@ -44,14 +44,14 @@
   { "label": { "en": ["Rights"] },              "value": { "en": ["[540]"] } },
   { "label": { "en": ["Copyright Status"] },    "value": { "en": ["[542]"] } }
 ],
-   "homepage": [
-    {
+  "homepage": [
+    { 
       "id": "https://node.uchicago.edu/collection/mapping-chicagoland",
       "type": "Text",
       "label": {"en": ["Mapping Chicagoland"]},
       "format": "text/html"
-    }
-  ],
+    } 
+],
  "rendering": [
     {
         "id": "https://iiif-image.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/file.pdf",
@@ -62,608 +62,629 @@
  ],
   "thumbnail": [
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/full/500,/0/default.jpg",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/file.vaf.tif/full/500,/0/default.jpg",
       "type": "Image",
       "format": "image/jpeg",
       "service": [
         {
-          "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001",
-          "@type": "ImageService2",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001",
+          "type": "ImageService2",
           "profile": "http://iiif.io/api/image/2/level2.json"
-        }
-          ]
-        }
-      ],
-  "items": [
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/canvas/cover",
-      "type": "Canvas",
-      "label": { "en": ["Cover"] },
-      "height": 9259,
-      "width": 7481,
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/canvas/cover/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/annotation/cover-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9259,
-                "width": 7481,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/canvas/cover" 
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index",
-      "type": "Canvas",
-      "label": { "en": ["Index"] },
-      "height": 9202,
-      "width": 7495,
-
-       "seeAlso": [
-    {
-      "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    }
-      ],
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/annotation/index-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9202,
-                "width": 7495,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3",
-      "type": "Canvas",
-      "label": { "en": ["3"] },
-      "height": 9194,
-      "width": 7395,
-
-      "seeAlso": [
-    {
-      "id": "https://annotations.allmaps.org/maps/9c16a8069df44378/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    }
-      ],
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9194,
-                "width": 7395,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/4",
-      "type": "Canvas",
-      "label": { "en": ["4"] },
-      "height": 9194,
-      "width": 7373,
-
-      "seeAlso": [
-    {
-      "id": "https://annotations.allmaps.org/maps/4b11ede405310bbf/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    }
-      ],
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/4/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/annotation/4-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9194,
-                "width": 7393,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/5",
-      "type": "Canvas",
-      "label": { "en": ["5"] },
-      "height": 9238,
-      "width": 7483,
-
-      "seeAlso": [
-    {
-      "id": "https://annotations.allmaps.org/maps/ddac4d3214d2f6dc/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    }
-      ],
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/5/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/annotation/5-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9238,
-                "width": 7483,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/6",
-      "type": "Canvas",
-      "label": { "en": ["6"] },
-      "height": 9209,
-      "width": 7416,
-
-      "seeAlso": [
-    {
-      "id": "https://annotations.allmaps.org/maps/8d17c404591bdceb/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    }
-      ],
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/6/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/annotation/6-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9209,
-                "width": 7416,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/7",
-      "type": "Canvas",
-      "label": { "en": ["7"] },
-      "height": 9194,
-      "width": 7395,
-
-      "seeAlso": [
-    {
-      "id": "https://annotations.allmaps.org/maps/3f67042fe2b028ac/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    }
-      ],
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/7/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/annotation/7-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9194,
-                "width": 7395,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/8",
-      "type": "Canvas",
-      "label": { "en": ["8"] },
-      "height": 9156,
-      "width": 7481,
-
-      "seeAlso": [
-    {
-      "id": "https://annotations.allmaps.org/maps/6deba08c7b801e72/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    }
-      ],
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/8/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/annotation/8-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9156,
-                "width": 7481,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/9",
-      "type": "Canvas",
-      "label": { "en": ["9"] },
-      "height": 9155,
-      "width": 7358,
-
-      "seeAlso": [
-    {
-      "id": "https://annotations.allmaps.org/maps/c7e29756ab4a95a4/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    }
-      ],
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/9/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/annotation/9-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9155,
-                "width": 7358,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/9"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/10",
-      "type": "Canvas",
-      "label": { "en": ["10"] },
-      "height": 9194,
-      "width": 7417,
-
-      "seeAlso": [
-    {
-      "id": "https://annotations.allmaps.org/maps/2ba887058e1788ea/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    }
-      ],
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/10/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/annotation/10-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9194,
-                "width": 7417,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/11",
-      "type": "Canvas",
-      "label": { "en": ["11"] },
-      "height": 9224,
-      "width": 7468,
-
-      "seeAlso": [
-    {
-      "id": "https://annotations.allmaps.org/maps/aa2c4e5bcc9904ec/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    }
-      ],
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/11/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/annotation/11-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9224,
-                "width": 7468,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/11"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/12",
-      "type": "Canvas",
-      "label": { "en": ["12"] },
-      "height": 9180,
-      "width": 7362,
-
-      "seeAlso": [
-    {
-      "id": "https://annotations.allmaps.org/maps/167473e4e1d35298/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map 1"]},
-      "profile": "https://allmaps.org/profile/georeference"
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/d13c8f070e09eff2/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map 2"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/e1fa0b99ec6cda05/",
-      "type": "Dataset",
-      "format": "application/json",
-      "label": { "en": ["Allmaps Georeferencing Data for Map 3"] },
-      "profile": "https://allmaps.org/profile/georeference"
-    }
-      ],
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/12/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/annotation/12-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9180,
-                "width": 7362,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/12"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/back-cover",
-      "type": "Canvas",
-      "label": { "en": ["Back Cover"] },
-      "height": 9184,
-      "width": 7378,
-
-      "items": [
-        {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/back-cover/page",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/annotation/back-cover-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 9184,
-                "width": 7378,
-                "service": [
-                  {
-                    "@id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
-              },
-              "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/back-cover"
-            }
-          ]
         }
       ]
     }
   ],
+  "items": [
+ {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/canvas/00000001",
+    "type": "Canvas",
+    "label": { "en": ["Cover"] },
+    "height": 9259,
+    "width": 7481,
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/canvas/img_00000001",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/annotation/img_00000001",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9259,
+              "width": 7481,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000001/canvas/00000001" 
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index",
+    "type": "Canvas",
+    "label": { "en": ["Index Map"] },
+    "height": 9202,
+    "width": 7495,
+      "seeAlso": [
+        {
+          "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+          "type": "Dataset",
+          "format": "application/json",
+          "label": { "en": ["Allmaps Georeferencing Data for Map"] },
+          "profile": "https://allmaps.org/profile/georeference"
+        }
+    ],
+      "partOf": [
+        {"id": "http://iiif-manifest.lib.uchicago.edu/b24j8rh6k601", "type": "Manifest"}
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/annotation/index-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9202,
+              "width": 7495,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000002/canvas/Index"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3",
+    "type": "Canvas",
+    "label": { "en": ["3"] },
+    "height": 9194,
+    "width": 7395,
+    "seeAlso": [
+      {
+        "id": "https://annotations.allmaps.org/maps/9c16a8069df44378/",
+        "type": "Dataset",
+        "format": "application/json",
+        "label": { "en": ["Allmaps Georeferencing Data for Map"] },
+        "profile": "https://allmaps.org/profile/georeference"
+      }
+    ],
+    "partOf": [
+      {"id": "http://iiif-manifest.lib.uchicago.edu/b23336k7gz18", "type": "Manifest"}
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9194,
+              "width": 7395,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000003/canvas/3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/4",
+    "type": "Canvas",
+    "label": { "en": ["4"] },
+    "height": 9194,
+    "width": 7373,
+    "seeAlso": [
+      {
+        "id": "https://annotations.allmaps.org/maps/4b11ede405310bbf/",
+        "type": "Dataset",
+        "format": "application/json",
+        "label": { "en": ["Allmaps Georeferencing Data for Map"] },
+        "profile": "https://allmaps.org/profile/georeference"
+      }
+    ],
+    "partOf": [
+      {"id": "http://iiif-manifest.lib.uchicago.edu/b2509bq3j81n", "type": "Manifest"}
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/4/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/annotation/4-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9194,
+              "width": 7393,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000004/canvas/4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/5",
+    "type": "Canvas",
+    "label": { "en": ["5"] },
+    "height": 9238,
+    "width": 7483,
+    "seeAlso": [
+      {
+        "id": "https://annotations.allmaps.org/maps/ddac4d3214d2f6dc/",
+        "type": "Dataset",
+        "format": "application/json",
+        "label": { "en": ["Allmaps Georeferencing Data for Map"] },
+        "profile": "https://allmaps.org/profile/georeference"
+      }
+    ],
+     "partOf": [
+      {"id": "http://iiif-manifest.lib.uchicago.edu/b21q5xt7j440", "type": "Manifest"}
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/5/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/annotation/5-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9238,
+              "width": 7483,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000005/canvas/5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/6",
+    "type": "Canvas",
+    "label": { "en": ["6"] },
+    "height": 9209,
+    "width": 7416,
+    "seeAlso": [
+      {
+          "id": "https://annotations.allmaps.org/maps/8d17c404591bdceb/",
+          "type": "Dataset",
+          "format": "application/json",
+          "label": { "en": ["Allmaps Georeferencing Data for Map"] },
+          "profile": "https://allmaps.org/profile/georeference"
+      }
+    ],
+     "partOf": [
+      {"id": "http://iiif-manifest.lib.uchicago.edu/b2fz57p5854h", "type": "Manifest"}
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/6/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/annotation/6-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9209,
+              "width": 7416,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000006/canvas/6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/7",
+    "type": "Canvas",
+    "label": { "en": ["7"] },
+    "height": 9194,
+    "width": 7395,
+    "seeAlso": [
+      {
+        "id": "https://annotations.allmaps.org/maps/3f67042fe2b028ac/",
+        "type": "Dataset",
+        "format": "application/json",
+        "label": { "en": ["Allmaps Georeferencing Data for Map"] },
+        "profile": "https://allmaps.org/profile/georeference"
+      }
+    ],
+     "partOf": [
+      {"id": "http://iiif-manifest.lib.uchicago.edu/b2s75j78bq2d", "type": "Manifest"}
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/7/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/annotation/7-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9194,
+              "width": 7395,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000007/canvas/7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/8",
+    "type": "Canvas",
+    "label": { "en": ["8"] },
+    "height": 9156,
+    "width": 7481,
+    "seeAlso": [
+      {
+          "id": "https://annotations.allmaps.org/maps/6deba08c7b801e72/",
+          "type": "Dataset",
+          "format": "application/json",
+          "label": { "en": ["Allmaps Georeferencing Data for Map"] },
+          "profile": "https://allmaps.org/profile/georeference"
+      }
+    ],
+    "partOf": [
+      {"id": "http://iiif-manifest.lib.uchicago.edu/b2j41jn2hs2v", "type": "Manifest"}
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/8/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/annotation/8-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9156,
+              "width": 7481,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000008/canvas/8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/9",
+    "type": "Canvas",
+    "label": { "en": ["9"] },
+    "height": 9155,
+    "width": 7358,
+    "seeAlso": [
+      {
+          "id": "https://annotations.allmaps.org/maps/c7e29756ab4a95a4/",
+          "type": "Dataset",
+          "format": "application/json",
+          "label": { "en": ["Allmaps Georeferencing Data for Map"] },
+          "profile": "https://allmaps.org/profile/georeference"
+      }
+    ],
+    "partOf": [
+      {"id": "http://iiif-manifest.lib.uchicago.edu/b2hk1fq68h2k", "type": "Manifest"}
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/9/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/file.vaf.tif/annotation/9-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9155,
+              "width": 7358,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000009/canvas/9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/10",
+    "type": "Canvas",
+    "label": { "en": ["10"] },
+    "height": 9194,
+    "width": 7417,
+    "seeAlso": [
+      {
+          "id": "https://annotations.allmaps.org/maps/2ba887058e1788ea/",
+          "type": "Dataset",
+          "format": "application/json",
+          "label": { "en": ["Allmaps Georeferencing Data for Map"] },
+          "profile": "https://allmaps.org/profile/georeference"
+      }
+    ],
+    "partOf": [
+      {"id": "http://iiif-manifest.lib.uchicago.edu/b2421bv6gq7w", "type": "Manifest"}
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/10/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/annotation/10-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9194,
+              "width": 7417,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000010/canvas/10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/11",
+    "type": "Canvas",
+    "label": { "en": ["11"] },
+    "height": 9224,
+    "width": 7468,
+    "seeAlso": [
+      {
+          "id": "https://annotations.allmaps.org/maps/aa2c4e5bcc9904ec/",
+          "type": "Dataset",
+          "format": "application/json",
+          "label": { "en": ["Allmaps Georeferencing Data for Map"] },
+          "profile": "https://allmaps.org/profile/georeference"
+      }
+    ],
+    "partOf": [
+      {"id": "http://iiif-manifest.lib.uchicago.edu/b2385x68898h", "type": "Manifest"}
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/11/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/annotation/11-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9224,
+              "width": 7468,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000011/canvas/11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/12",
+    "type": "Canvas",
+    "label": { "en": ["12"] },
+    "height": 9180,
+    "width": 7362,
+    "seeAlso": [
+      {
+          "id": "https://annotations.allmaps.org/maps/167473e4e1d35298/",
+          "type": "Dataset",
+          "format": "application/json",
+          "label": { "en": ["Allmaps Georeferencing Data for Map 1"]},
+          "profile": "https://allmaps.org/profile/georeference"
+      },
+      {
+          "id": "https://annotations.allmaps.org/maps/d13c8f070e09eff2/",
+          "type": "Dataset",
+          "format": "application/json",
+          "label": { "en": ["Allmaps Georeferencing Data for Map 2"] },
+          "profile": "https://allmaps.org/profile/georeference"
+      },
+      {
+          "id": "https://annotations.allmaps.org/maps/e1fa0b99ec6cda05/",
+          "type": "Dataset",
+          "format": "application/json",
+          "label": { "en": ["Allmaps Georeferencing Data for Map 3"] },
+          "profile": "https://allmaps.org/profile/georeference"
+      }
+    ],
+    "partOf": [
+      {"id": "http://iiif-manifest.lib.uchicago.edu/b2h410n8pc3c", "type": "Manifest"}
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/12/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/annotation/12-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9180,
+              "width": 7362,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000012/canvas/12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/back-cover",
+    "type": "Canvas",
+    "label": { "en": ["Back Cover"] },
+    "height": 9184,
+    "width": 7378,
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/back-cover/page",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/annotation/back-cover-image",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/file.vaf.tif/full/full/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": 9184,
+              "width": 7378,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013",
+                  "type": "ImageService2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/back-cover"
+          }
+        ]
+      }
+    ]
+  }
+  ],
   "structures": [
     {
-      "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/toc",
+      "id": "https://iiif-manifest.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/toc",
       "type": "Range",
       "label": {"en": ["Table of Contents"]},
       "items": [
         {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/cover",
+          "id": "https://iiif-manifest.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/cover",
           "type": "Range",
           "label": { "en": ["Cover"] },
           "items": [
@@ -671,7 +692,7 @@
           ]
         },
         {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/index",
+          "id": "https://iiif-manifest.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/index",
           "type": "Range",
           "label": { "en": ["Index"] },
           "items": [
@@ -679,7 +700,7 @@
           ]
         },
         {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/body",
+          "id": "https://iiif-manifest.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/body",
           "type": "Range",
           "label": { "en": ["Body"] },
           "items": [
@@ -696,7 +717,7 @@
           ]
         },
         {
-          "id": "https://iiif-collection.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/back-cover",
+          "id": "https://iiif-manifest.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/back-cover",
           "type": "Range",
           "label": { "en": ["Back Cover"] },
           "items": [
