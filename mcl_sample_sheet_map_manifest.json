@@ -5,7 +5,7 @@
 
   "label": { "en": ["Chicago After the Fire"] },
   "behavior": ["individuals"],
-  "rights": "http://creativecommons.org/licenses/by-nc/4.0/",
+  "rights": "https://creativecommons.org/licenses/by-nc/4.0/",
   "requiredStatement": {
     "label": { "en": ["Attribution"] },
     "value": { "en": ["Chicago History Museum"]}
@@ -45,7 +45,7 @@
   { "label": { "en": ["Rights"] },              "value": { "en": ["[540]"] } },
   { "label": { "en": ["Copyright Status"] },    "value": { "en": ["[542]"] } }
 ],
-      "homepage": [
+    "homepage": [
     {
       "id": "https://node-staging.uchicago.edu/collection/mapping-chicagoland",
       "type": "Text",
@@ -114,4 +114,5 @@
       ]
     }
   ]
+
 }
