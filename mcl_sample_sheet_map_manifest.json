@@ -60,6 +60,12 @@
     "format": "application/json",
     "label": { "en": ["Allmaps Georeferencing Data"] },
     "profile": "https://allmaps.org/profile/georeference"
+  },
+  {
+    "id": "http://pi.lib.uchicago.edu/1001/cat/bib/00000000",
+    "type": "Dataset",
+    "format": "text/html",
+    "label": { "en": ["Cataloging Record"] }
   }
  ],
   "thumbnail": [
@@ -115,3 +121,4 @@
     }
   ]
 }
+
