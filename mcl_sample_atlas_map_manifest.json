@@ -59,8 +59,14 @@
       "format": "application/json",
       "label": { "en": ["Allmaps Georeferencing Data"] },
       "profile": "https://allmaps.org/profile/georeference"
-    }
-  ],
+    },
+    {
+      "id": "http://pi.lib.uchicago.edu/1001/cat/bib/00000000",
+      "type": "Dataset",
+      "format": "text/html",
+      "label": { "en": ["Cataloging Record"] }
+     },
+ ],
   "partOf": [{"id": "http://iiif-manifest.lib.uchicago.edu/b2v51db9xg91", "type": "Manifest"}],
  
   "thumbnail": [
@@ -117,4 +123,5 @@
   ]
 
 }
+
 
