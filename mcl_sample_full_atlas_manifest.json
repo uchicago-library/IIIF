@@ -3,7 +3,7 @@
   "id": "https://iiif-manifest.lib.uchicago.edu/b2v51db9xg91",
   "type": "Manifest",
 
-  "label": { "en": ["Yerkes, Chas. S. Insurance map of the World's Columbian Exposition, Jackson Park, Chicago (1893)"] },
+  "label": { "en": ["[245 $a : $b / $c]"] },
   "behavior": ["individuals"],
   "rights": "https://creativecommons.org/licenses/by-nc/4.0/",
   "requiredStatement": {
@@ -59,6 +59,14 @@
         "label":{"en":["Download as PDF"]},
         "format": "application/pdf"
     }
+ ],
+ "seeAlso": [
+    {
+      "id": "http://pi.lib.uchicago.edu/1001/cat/bib/00000000",
+      "type": "Dataset",
+      "format": "text/html",
+      "label": { "en": ["Cataloging Record"] }
+     },
  ],
   "thumbnail": [
     {
