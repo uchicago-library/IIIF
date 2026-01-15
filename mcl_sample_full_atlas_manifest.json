@@ -131,10 +131,13 @@
           "format": "application/json",
           "label": { "en": ["Allmaps Georeferencing Data for Map"] },
           "profile": "https://allmaps.org/profile/georeference"
+        },
+        {
+          "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+          "type": "Dataset",
+          "format": "text/html",
+          "label": { "en": ["see Individually Cataloged Page"] }
         }
-    ],
-      "partOf": [
-        {"id": "http://iiif-manifest.lib.uchicago.edu/b24j8rh6k601", "type": "Manifest"}
     ],
     "items": [
       {
@@ -178,10 +181,13 @@
         "format": "application/json",
         "label": { "en": ["Allmaps Georeferencing Data for Map"] },
         "profile": "https://allmaps.org/profile/georeference"
+      },
+      {
+        "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+        "type": "Dataset",
+        "format": "text/html",
+        "label": { "en": ["see Individually Cataloged Page"] }
       }
-    ],
-    "partOf": [
-      {"id": "http://iiif-manifest.lib.uchicago.edu/b23336k7gz18", "type": "Manifest"}
     ],
     "items": [
       {
@@ -225,10 +231,13 @@
         "format": "application/json",
         "label": { "en": ["Allmaps Georeferencing Data for Map"] },
         "profile": "https://allmaps.org/profile/georeference"
-      }
-    ],
-    "partOf": [
-      {"id": "http://iiif-manifest.lib.uchicago.edu/b2509bq3j81n", "type": "Manifest"}
+      },
+        {
+          "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+          "type": "Dataset",
+          "format": "text/html",
+          "label": { "en": ["see Individually Cataloged Page"] }
+        }
     ],
     "items": [
       {
@@ -272,10 +281,13 @@
         "format": "application/json",
         "label": { "en": ["Allmaps Georeferencing Data for Map"] },
         "profile": "https://allmaps.org/profile/georeference"
-      }
-    ],
-     "partOf": [
-      {"id": "http://iiif-manifest.lib.uchicago.edu/b21q5xt7j440", "type": "Manifest"}
+      },
+        {
+          "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+          "type": "Dataset",
+          "format": "text/html",
+          "label": { "en": ["see Individually Cataloged Page"] }
+        }
     ],
     "items": [
       {
@@ -319,10 +331,13 @@
           "format": "application/json",
           "label": { "en": ["Allmaps Georeferencing Data for Map"] },
           "profile": "https://allmaps.org/profile/georeference"
-      }
-    ],
-     "partOf": [
-      {"id": "http://iiif-manifest.lib.uchicago.edu/b2fz57p5854h", "type": "Manifest"}
+      },
+        {
+          "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+          "type": "Dataset",
+          "format": "text/html",
+          "label": { "en": ["see Individually Cataloged Page"] }
+        }
     ],
     "items": [
       {
@@ -366,10 +381,13 @@
         "format": "application/json",
         "label": { "en": ["Allmaps Georeferencing Data for Map"] },
         "profile": "https://allmaps.org/profile/georeference"
-      }
-    ],
-     "partOf": [
-      {"id": "http://iiif-manifest.lib.uchicago.edu/b2s75j78bq2d", "type": "Manifest"}
+      },
+        {
+          "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+          "type": "Dataset",
+          "format": "text/html",
+          "label": { "en": ["see Individually Cataloged Page"] }
+        }
     ],
     "items": [
       {
@@ -413,10 +431,13 @@
           "format": "application/json",
           "label": { "en": ["Allmaps Georeferencing Data for Map"] },
           "profile": "https://allmaps.org/profile/georeference"
-      }
-    ],
-    "partOf": [
-      {"id": "http://iiif-manifest.lib.uchicago.edu/b2j41jn2hs2v", "type": "Manifest"}
+      },
+        {
+          "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+          "type": "Dataset",
+          "format": "text/html",
+          "label": { "en": ["see Individually Cataloged Page"] }
+        }
     ],
     "items": [
       {
@@ -460,10 +481,13 @@
           "format": "application/json",
           "label": { "en": ["Allmaps Georeferencing Data for Map"] },
           "profile": "https://allmaps.org/profile/georeference"
-      }
-    ],
-    "partOf": [
-      {"id": "http://iiif-manifest.lib.uchicago.edu/b2hk1fq68h2k", "type": "Manifest"}
+      },
+        {
+          "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+          "type": "Dataset",
+          "format": "text/html",
+          "label": { "en": ["see Individually Cataloged Page"] }
+        }
     ],
     "items": [
       {
@@ -507,10 +531,13 @@
           "format": "application/json",
           "label": { "en": ["Allmaps Georeferencing Data for Map"] },
           "profile": "https://allmaps.org/profile/georeference"
-      }
-    ],
-    "partOf": [
-      {"id": "http://iiif-manifest.lib.uchicago.edu/b2421bv6gq7w", "type": "Manifest"}
+      },
+        {
+          "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+          "type": "Dataset",
+          "format": "text/html",
+          "label": { "en": ["see Individually Cataloged Page"] }
+        }
     ],
     "items": [
       {
@@ -554,10 +581,13 @@
           "format": "application/json",
           "label": { "en": ["Allmaps Georeferencing Data for Map"] },
           "profile": "https://allmaps.org/profile/georeference"
-      }
-    ],
-    "partOf": [
-      {"id": "http://iiif-manifest.lib.uchicago.edu/b2385x68898h", "type": "Manifest"}
+      },
+        {
+          "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+          "type": "Dataset",
+          "format": "text/html",
+          "label": { "en": ["see Individually Cataloged Page"] }
+        }
     ],
     "items": [
       {
@@ -615,10 +645,13 @@
           "format": "application/json",
           "label": { "en": ["Allmaps Georeferencing Data for Map 3"] },
           "profile": "https://allmaps.org/profile/georeference"
-      }
-    ],
-    "partOf": [
-      {"id": "http://iiif-manifest.lib.uchicago.edu/b2h410n8pc3c", "type": "Manifest"}
+      },
+        {
+          "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
+          "type": "Dataset",
+          "format": "text/html",
+          "label": { "en": ["see Individually Cataloged Page"] }
+        }
     ],
     "items": [
       {
@@ -727,7 +760,7 @@
         {
           "id": "https://iiif-manifest.lib.uchicago.edu/object/ark:61001/b2v51db9xg91/range/00000013",
           "type": "Range",
-          "label": { "en": ["Back Cover"] },
+          "label": { "en": ["Cover"] },
           "items": [
             { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2v51db9xg91/00000013/canvas/00000013", "type": "Canvas" }
           ]
