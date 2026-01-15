@@ -54,6 +54,12 @@
   ],
   "seeAlso": [
     {
+      "id": "[input Node url to full text atlas]",
+      "type": "Dataset",
+      "format": "text/html",
+      "label": { "en": ["see Full Atlas"] }
+    },
+    {
       "id": "https://annotations.allmaps.org/maps/2af28f87acc654ff/",
       "type": "Dataset",
       "format": "application/json",
@@ -123,5 +129,6 @@
   ]
 
 }
+
 
 
