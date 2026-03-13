@@ -87,7 +87,7 @@
    {  
     "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>",
     "type": "Canvas",
-    "label": { "en": ["label"] },
+    "label": { "en": ["<label>"] },
     "height": <height>,
     "width": <width>,
     ],
@@ -124,7 +124,7 @@
   {
   "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>",
   "type": "Canvas",
-  "label": { "en": ["label"] },
+  "label": { "en": ["<label>"] },
   "height": <height>,
   "width": <width>,
   "seeAlso": [
