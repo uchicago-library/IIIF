@@ -40,7 +40,7 @@
   ],
   "thumbnail": [
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2gg00s0zd8p/file.vaf.tif/full/max/0/default.jpg",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2gg00s0zd8p/file.vaf.tif/full/500/0/default.jpg",
       "type": "Image",
       "format": "image/jpeg",
       "service": [
