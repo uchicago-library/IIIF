@@ -69,7 +69,7 @@
               "service": [
                 {
                   "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/file.vaf.tif",
-                  "protocol": "http://iiif.io/api/image
+                  "protocol": "http://iiif.io/api/image"
                   "type": "ImageService3",
                   "profile": "level2"
                 }
@@ -106,7 +106,7 @@
             "service": [
                 {
                   "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/file.vaf.tif",
-                  "protocol": "http://iiif.io/api/image
+                  "protocol": "http://iiif.io/api/image"
                   "type": "ImageService3",
                   "profile": "level2"
                 }
