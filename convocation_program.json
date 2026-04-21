@@ -3,14 +3,19 @@
   "id": "https://iiif-manifest.lib.uchicago.edu/<arkID>",
   "type": "Manifest",
 
-  "label": { "en": ["<Convocation Program: YYYY>"] },
+  "label": { "en": ["<University of Chicago Convocation Programs, <month><date>,<year>"] },
   "behavior": ["paged"],
   "rights": "https://creativecommons.org/licenses/by-nc/4.0/",
   "requiredStatement": {
     "label": { "en": ["Attribution"] },
-    "value": { "en": ["holding-institution"]}
+    "value": { "en": ["University of Chicago"]}
   },
-  "metadata": [<insert metadata>],
+  "metadata": [
+  { "label": { "en": ["Title"] },               "value": { "en": ["<245 $a : $b / $c>"] } },
+  { "label": { "en": ["Description"] },		"value": { "en": ["<short description of collection it is a part of>"] } },
+  { "label": { "en": ["Date"] },		"value": { "en": ["<YYYY>"] } },
+  { "label": { "en": ["Rights"] },              "value": { "en": ["<540>"] } }
+],
   "homepage": [
     { 
       "id": "<collection html link>",
