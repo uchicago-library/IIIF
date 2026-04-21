@@ -1,1 +1,30 @@
-
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://iiif-manifest.lib.uchicago.edu/<ark-id>/manifest.json",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "<University of Chicago Convocation Programs: <YYYY>>"
+    ]
+  },
+  "items": [
+    {
+      "id": "http://iiif-manifest.lib.uchicago.edu/<ark-id>/00000001/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "<Month, Day, Year"
+        ]
+      }
+    },
+    {
+      "id": "http://iiif-manifest.lib.uchicago.edu/<ark-id>/00000002/manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+          "<Month, Day, Year>"
+        ]
+      }
+    }
+  ]
+}
