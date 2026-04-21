@@ -1,0 +1,179 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif-manifest.lib.uchicago.edu/<arkID>",
+  "type": "Manifest",
+
+  "label": { "en": ["<Title>"] },
+  "behavior": ["paged"],
+  "rights": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "requiredStatement": {
+    "label": { "en": ["Attribution"] },
+    "value": { "en": ["holding-institution"]}
+  },
+  "metadata": [<insert metadata>],
+  "homepage": [
+    { 
+      "id": "<collection html link>",
+      "type": "Text",
+      "label": {"en": ["<collection name>"]},
+      "format": "text/html"
+    } 
+],
+ "rendering": [
+    {
+        "id": "https://iiif-image.lib.uchicago.edu/object/ark:61001/<arkID>/file.pdf",
+        "type": "Text",
+        "label":{"en":["Download as PDF"]},
+        "format": "application/pdf"
+    },
+    {
+        "id": "https://iiif-image.lib.uchicago.edu/object/ark:61001/<arkID>/file.pdf",
+        "type": "Text",
+        "label":{"en":["Download as Full Text"]},
+        "format": "application/pdf"
+    },
+ ],
+ "seeAlso": [
+    {
+      "id": "http://pi.lib.uchicago.edu/1001/cat/bib/<bibID>",
+      "type": "Dataset",
+      "format": "text/html",
+      "label": { "en": ["Library Cataloging Record"] }
+     },
+   
+ ],
+  "thumbnail": [
+    {
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/file.vaf.tif/full/200,/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>",
+          "protocol": "http://iiif.io/api/image",
+          "type": "ImageService3",
+          "profile": "level2"
+        }
+      ]
+    }
+  ],
+  "items": [
+   {  
+    "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>",
+    "type": "Canvas",
+    "label": { "en": ["<label>"] },
+    "height": <height>,
+    "width": <width>,
+    ],
+    "items": [
+      {
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/img_<imageNum>",
+        "type": "AnnotationPage",
+        "items": [
+          {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/annotation/img_<imageNum>",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+              "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/file.vaf.tif/full/max/0/default.jpg",
+              "type": "Image",
+              "format": "image/jpeg",
+              "height": <height>,
+              "width": <width>,
+              "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/file.vaf.tif",
+                  "protocol": "http://iiif.io/api/image"
+                  "type": "ImageService3",
+                  "profile": "level2"
+                }
+              ]
+            },
+            "target": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>" 
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>",
+  "type": "Canvas",
+  "label": { "en": ["<label>"] },
+  "height": <height>,
+  "width": <width>,
+
+  "items": [
+    {
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/img_<imageNum>",
+      "type": "AnnotationPage",
+      "items": [
+        {
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/annotation/img_<imageNum>",
+          "type": "Annotation",
+          "motivation": "painting",
+          "body": {
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/file.vaf.tif/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": <height>,
+            "width": <width>,
+            "service": [
+                {
+                  "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/file.vaf.tif",
+                  "protocol": "http://iiif.io/api/image"
+                  "type": "ImageService3",
+                  "profile": "level2"
+                }
+            ]
+          },
+          "target": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>" 
+        }
+      ]
+    }
+  ]
+},
+{<insert more cavases as needed>}
+ ],
+  "structures": [
+    {
+      "id": "https://iiif-manifest.lib.uchicago.edu/object/ark:61001/<arkID>/range/toc",
+      "type": "Range",
+      "label": {"en": ["Table of Contents"]},
+      "items": [
+        {
+          "id": "https://iiif-manifest.lib.uchicago.edu/object/ark:61001/<arkID>/range/<rangeNum>",
+          "type": "Range",
+          "label": { "en": ["<Front Cover>"] },
+          "items": [
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
+          ]
+        },
+        {
+          "id": "https://iiif-manifest.lib.uchicago.edu/object/ark:61001/<arkID>/range/<rangeNum>",
+          "type": "Range",
+          "label": { "en": ["<Pastedown>"] },
+          "items": [
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
+          ]
+        },
+        {
+          "id": "https://iiif-manifest.lib.uchicago.edu/object/ark:61001/<arkID>/range/<rangeNum>",
+          "type": "Range",
+          "label": { "en": ["<Body>"] },
+          "items": [
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
+          ]
+        },
+        {
+          "id": "https://iiif-manifest.lib.uchicago.edu/object/ark:61001/<arkID>/range/<rangeNum>",
+          "type": "Range",
+          "label": { "en": ["<Back Cover"] },
+          "items": [
+            { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
+          ]
+        }
+      ]
+    }
+  ]
+}
