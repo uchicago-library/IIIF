@@ -10,7 +10,7 @@
     "label": { "en": ["Attribution"] },
     "value": { "en": ["holding-institution"]}
   },
-  "metadata": [<insert metadata],
+  "metadata": [<insert metadata>],
   "homepage": [
     { 
       "id": "<collection html link>",
@@ -87,21 +87,7 @@
   "label": { "en": ["<label>"] },
   "height": <height>,
   "width": <width>,
-  "seeAlso": [
-      {
-        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>",
-        "type": "Dataset",
-        "format": "application/json",
-        "label": { "en": ["Individually Cataloged Map"] },
-      },
-      {
-        "id": "<allmaps-annotation-url>",
-        "type": "AnnotationPage",
-        "format": "application/ld+json",
-        "label": { "en": ["Allmaps Georeferencing Data"] },
-        "profile": "http://iiif.io/api/extension/georef"
-       }
-  ],
+
   "items": [
     {
       "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/img_<imageNum>",
