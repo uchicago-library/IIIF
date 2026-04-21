@@ -19,7 +19,14 @@
       "format": "text/html"
     } 
 ],
-
+ "rendering": [
+    {
+        "id": "https://iiif-image.lib.uchicago.edu/object/ark:61001/<arkID>/file.pdf",
+        "type": "Text",
+        "label":{"en":["Download as PDF"]},
+        "format": "application/pdf"
+    }
+ ],
  "seeAlso": [
     {
       "id": "http://pi.lib.uchicago.edu/1001/cat/bib/<bibID>",
