@@ -45,7 +45,7 @@
       "format": "image/jpeg",
       "service": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2gg00s0zd8p/file.vaf.tif/",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2gg00s0zd8p/",
           "protocol": "http://iiif.io/api/image",
           "type": "ImageService3",
           "profile": "level2"
@@ -78,7 +78,7 @@
                 "width": 3385,
                 "service": [
                   {
-                      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2gg00s0zd8p/file.vaf.tif/",
+                      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/b2gg00s0zd8p/",
                       "protocol": "http://iiif.io/api/image",
                       "type": "ImageService3",
                       "profile": "level2"
