@@ -75,7 +75,7 @@
  ],
   "thumbnail": [
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/file.vaf.tif/full/500,/0/default.jpg",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/file.vaf.tif/full/200,/0/default.jpg",
       "type": "Image",
       "format": "image/jpeg",
       "service": [
