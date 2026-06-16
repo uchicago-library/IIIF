@@ -1,0 +1,256 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://iiif-manifest.lib.uchicago.edu/ark:61001/<arkID>",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "<title>"
+        ]
+    },
+    "behavior": [
+        "paged"
+    ],
+    "rights": "http://creativecommons.org/licenses/by-nc/4.0/",
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "en": [
+                "University of Chicago"
+            ]
+        }
+    },
+    "metadata": [
+        {<metadata>}
+    ],
+    "homepage": [
+        {
+            "id": "<insert UChicagoNode collection URL",
+            "type": "Text",
+            "label": "Chopin Early Editions",
+            "format": "text/html"
+        }
+    ],
+  "seeAlso": [
+         {
+            "id": "<UChicagoNode URL to other copies>",
+            "type": "Text",
+            "label": "See Copy <#>",
+            "format": "text/html"
+        },
+        {
+            "id": "http://pi.lib.uchicago.edu/1001/cat/bib/<bibID>",
+            "type": "Text",
+            "label": "Bibliographic Record",
+            "format": "text/html"
+        },
+        {
+            "id": "https://www.lib.uchicago.edu/scrc",
+            "type": "Text",
+            "label": "The Hanna Holborn Gray Special Collections Research Center",
+            "format": "text/html"
+        }
+    ],
+    "rendering": [
+        {
+            "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/file.pdf",
+            "type": "Text",
+            "label": {
+                "en": [
+                    "Download as PDF"
+                ]
+            },
+            "format": "application/pdf"
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/full/500,/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "service": [
+                {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>",
+                    "protocol": "http://iiif.io/api/image",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>",
+            "type": "Canvas",
+            "label": {
+                "en": [
+                    "<label>"
+                ]
+            },
+            "height": <height>,
+            "width": <width>,
+            "items": [
+                {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/image_<imageNum>",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/annotation/image_<imageNum>",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/file.vaf.tif/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": <height>,
+                                "width": <width>,
+                                 "service": [
+                                    {
+                                        "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "type": "ImageService3",
+                                        "profile": "level2"
+                                    }
+                                ]
+                            },
+                            "target": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>",
+            "type": "Canvas",
+            "label": {
+                "en": [
+                    "<label>"
+                ]
+            },
+            "height": <height>,
+            "width": <width>,
+            "items": [
+                {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/image_<imageNum>",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/annotation/image_<imageNum>",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/file.vaf.tif/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": <height>,
+                                "width": <width>,
+                                 "service": [
+                                    {
+                                        "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "type": "ImageService3",
+                                        "profile": "level2"
+                                    }
+                                ]
+                            },
+                            "target": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "structures": [
+        {
+            "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/toc",
+            "type": "Range",
+            "label": {"en": ["Table of Contents"] },
+            "items": [
+                {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/1",
+                    "type": "Range",
+                    "label": { "en": ["Cover with Title"] },
+                    "items": [
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
+                    ]
+                },
+                {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/2",
+                    "type": "Range",
+                    "label": { "en": ["Score"] },
+                    "items": [
+                        { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/2-1", "type": "Range" },
+                        { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/2-2", "type": "Range" },
+                        { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/2-3", "type": "Range" }
+                        { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/2-4", "type": "Range" }  
+                    ]
+                },
+                {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/2-1",
+                    "type": "Range",
+                    "label": { "en": ["1st movement: Allegro maestoso"] },
+                    "items": [
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
+                    ]
+                },
+                 {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/2-2",
+                    "type": "Range",
+                    "label": { "en": ["2nd movement: Menuetto"] },
+                    "items": [
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
+                    ]
+                },           
+                {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/2-3",
+                    "type": "Range",
+                    "label": { "en": ["3rd movement: Larghetto"] },
+                    "items": [
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
+                    ]
+                }, 
+                {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/2-4",
+                    "type": "Range",
+                    "label": { "en": ["4th movement: Finale: Presto"] },
+                    "items": [
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" },
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
+                    ]
+                },
+                {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/3",
+                    "type": "Range",
+                    "label": { "en": ["Advertisment"] },
+                    "items": [
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
+                    ]
+                },
+                {
+                    "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/range/4",
+                    "type": "Range",
+                    "label": { "en": ["Cover"] },
+                    "items": [
+                    { "id": "https://iiif-server.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
+                    ]
+                }
+            ]
+        }
+    ]
+}
