@@ -58,11 +58,11 @@
     ],
     "items": [
       {
-        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/img_<imageNum>",
+        "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/image_<imageNum>",
         "type": "AnnotationPage",
         "items": [
           {
-            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/annotation/img_<imageNum>",
+            "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/annotation/image_<imageNum>",
             "type": "Annotation",
             "motivation": "painting",
             "body": {
@@ -95,11 +95,11 @@
 
   "items": [
     {
-      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/img_<imageNum>",
+      "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/image_<imageNum>",
       "type": "AnnotationPage",
       "items": [
         {
-          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/annotation/img_<imageNum>",
+          "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/annotation/image_<imageNum>",
           "type": "Annotation",
           "motivation": "painting",
           "body": {
