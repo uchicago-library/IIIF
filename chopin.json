@@ -184,7 +184,7 @@
                     "items": [
                         { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/range/2-1", "type": "Range" },
                         { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/range/2-2", "type": "Range" },
-                        { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/range/2-3", "type": "Range" }
+                        { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/range/2-3", "type": "Range" },
                         { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/range/2-4", "type": "Range" }  
                     ]
                 },
