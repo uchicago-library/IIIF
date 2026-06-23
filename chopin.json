@@ -28,9 +28,9 @@
     ],
     "homepage": [
         {
-            "id": "<insert UChicagoNode collection URL",
+            "id": "<insert UChicagoNode collection URL>",
             "type": "Text",
-            "label": "Chopin Early Editions",
+            "label": {"en" ["Chopin Early Editions"]},
             "format": "text/html"
         }
     ],
@@ -38,19 +38,19 @@
          {
             "id": "<UChicagoNode URL to other copies>",
             "type": "Text",
-            "label": "See Copy <#>",
+            "label":  {"en" ["See Copy <#>"]},
             "format": "text/html"
         },
         {
             "id": "http://pi.lib.uchicago.edu/1001/cat/bib/<bibID>",
             "type": "Text",
-            "label": "Bibliographic Record",
+            "label":  {"en" ["Bibliographic Record"]},
             "format": "text/html"
         },
         {
             "id": "https://www.lib.uchicago.edu/scrc",
             "type": "Text",
-            "label": "The Hanna Holborn Gray Special Collections Research Center",
+            "label":  {"en" ["The Hanna Holborn Gray Special Collections Research Center"]},
             "format": "text/html"
         }
     ],
@@ -237,7 +237,7 @@
                 {
                     "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/range/3",
                     "type": "Range",
-                    "label": { "en": ["Advertisment"] },
+                    "label": { "en": ["Advertisement"] },
                     "items": [
                     { "id": "https://iiif-image.lib.uchicago.edu/ark:61001/<arkID>/<imageNum>/canvas/<imageNum>", "type": "Canvas" }
                     ]
