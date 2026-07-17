@@ -13,7 +13,7 @@
   "metadata": [
   { "label": { "en": ["Title"] },               "value": { "en": ["<245 $a : $b / $c>"] } },
   { "label": { "en": ["Description"] },		"value": { "en": ["<short description of collection it is a part of>"] } },
-  { "label": { "en": ["Date"] },		"value": { "en": ["<Month, Day, YYYY>"] } },
+  { "label": { "en": ["Date"] },		"value": { "en": ["<Month Day, YYYY>"] } },
   { "label": { "en": ["Rights"] },              "value": { "en": ["<540>"] } }
 ],
   "homepage": [
