@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "http://iiif-manifest.lib.uchicago.edu/ark:61001/<arkID>",
+    "id": "https://ark.lib.uchicago.edu/ark:61001/<arkID>/manifest",
     "type": "Manifest",
     "label": {
         "en": [
@@ -28,7 +28,7 @@
     ],
     "homepage": [
         {
-            "id": "<insert UChicagoNode collection URL>",
+            "id": "<https://node.uchicago.edu/collection/chopin-early-editions/>",
             "type": "Text",
             "label": {"en" ["Chopin Early Editions"]},
             "format": "text/html"
